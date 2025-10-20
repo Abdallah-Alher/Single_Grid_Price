@@ -21,7 +21,7 @@ Appliquer des règles de design cohérentes à partir d’un guide de style.
 
 Créer une carte responsive centrée sur la page.
 
-Technologies utilisées
+## Technologies utilisées 
 Technologie	Utilisation
 HTML5	Structure du contenu
 CSS3 (Flexbox)	Mise en page et design responsive
@@ -42,5 +42,5 @@ Repository : https://github.com/Abdallah-Alher/Single_Grid_Price.git
 
 la page : https://abdallah-alher.github.io/Single_Grid_Price/
 
-# Auteur : 
+## Auteur : 
 ALHER MATOU Abdallah 

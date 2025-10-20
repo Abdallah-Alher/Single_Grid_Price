@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Le body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf3f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Le conteneur */
+.main-content {
+  width: 725px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Le premier enfant */
+.top-content {
+  background-color: #fff;
+  padding: 3rem 3.5rem;
+}
+
+.top-content h2 {
+  color: #333;
+  font-size: 2rem; /* La valeur par defaut */
+  margin-bottom: 1.2rem;
+}
+
+.top-content .highlight {
+  color: hsl(71, 73%, 54%);
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 1.2rem;
+}
+
+.top-content p:last-of-type {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Le deuxième enfant */
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* La colone de gauche */
+.subscription {
+  background-color: #1eb8a8;
+  color: #fff;
+  width: 50%;
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription h3 {
+  margin-bottom: 1.3rem;
+  margin-top: 25px;
+}
+
+.price p {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.85;
+  margin-left: 0.5rem;
+}
+
+.subscription > p {
+  font-size: 16px;
+  margin-top: 1.5rem;
+  opacity: 0.9;
+}
+
+/* Le style pour le bouton */
+button {
+  background-color: #c4f13b; /* Button Green */
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #b3df2f; /* Button Hover Green */
+  transform: translateY(-2px);
+}
+
+/*  La colonne de droite */
+.why-us {
+  background-color: #43d6c7;
+  color: #fff;
+  width: 50%;
+  padding: 2.8rem;
+}
+
+.why-us h3 {
+  margin-bottom: 1.3rem;
+}
+
+.why-us ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+/* Pour la responsivité */
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .main-content {
+    width: 90%;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  .subscription,
+  .why-us {
+    width: 100%;
+  }
+
+  .subscription {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .why-us {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}

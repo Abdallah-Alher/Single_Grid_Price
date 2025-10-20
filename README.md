@@ -13,13 +13,13 @@ Ce projet suit fidèlement le Front-End Style Guide fourni, en respectant les co
 
 ## Objectifs pédagogiques
 
-Maîtriser la mise en page avec Flexbox.
+ * Maîtriser la mise en page avec Flexbox.
 
-Structurer proprement un composant en HTML sémantique.
+ * Structurer proprement un composant en HTML sémantique.
 
-Appliquer des règles de design cohérentes à partir d’un guide de style.
+ * Appliquer des règles de design cohérentes à partir d’un guide de style.
 
-Créer une carte responsive centrée sur la page.
+ *  Créer une carte responsive centrée sur la page.
 
 ## Technologies utilisées 
 Technologie	Utilisation
@@ -31,9 +31,9 @@ Google Fonts (Arial, sans-serif)
 
 ## Responsive Design
 
-Sur les écrans larges (≥ 768px) : les deux colonnes “Subscription” et “Why Us” sont affichées côte à côte.
+* Sur les écrans larges (≥ 768px) : les deux colonnes “Subscription” et “Why Us” sont affichées côte à côte.
 
-Sur mobile (< 768px) : elles s’empilent verticalement, tout en conservant les coins arrondis de la carte.
+* Sur mobile (< 768px) : elles s’empilent verticalement, tout en conservant les coins arrondis de la carte.
 
 
 ## Télécharge ou clone le projet :

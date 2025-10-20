@@ -23,11 +23,11 @@ Ce projet suit fidèlement le Front-End Style Guide fourni, en respectant les co
 
 ## Technologies utilisées 
 
-Technologie	Utilisation,
-HTML5	Structure du contenu,
-CSS3 (Flexbox)	Mise en page et design responsive,
-Media Queries	Adaptation mobile,
-Google Fonts (Arial, sans-serif).
+* Technologie	Utilisation,
+* HTML5	Structure du contenu,
+* CSS3 (Flexbox)	Mise en page et design responsive,
+* Media Queries	Adaptation mobile,
+* Google Fonts (Arial, sans-serif).
 
 
 ## Responsive Design
